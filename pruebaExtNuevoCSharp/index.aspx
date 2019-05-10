@@ -22,12 +22,14 @@
             <asp:TextBox ID="TextBox2" runat="server" class="form-control"></asp:TextBox>
             <asp:Label ID="Label4" runat="server" Text="Teléfono"></asp:Label>
             <asp:TextBox ID="TextBox3" runat="server" class="form-control"></asp:TextBox>
-            <asp:Button ID="Button1" runat="server" Text="Button" class="btn btn-primary"/>
+            <asp:Label ID="Label5" runat="server" Text="Tratamiento"></asp:Label>
+            <asp:DropDownList ID="cboTratamientos" runat="server"></asp:DropDownList> 
+            <asp:Button ID="Button1" runat="server" Text="Registrar" class="btn btn-primary"/>
 
         </div>
-        <div id="Map">
+        <div id="map"></div>
+        <div id="info" style="display: none;"></div>
 
-        </div>
     </form>
     <script src="Scripts/map.js"></script>
 </body>
